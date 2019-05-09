@@ -1,0 +1,11 @@
+.nav-item {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.nav-item:hover {
+    color: whitesmoke;
+    text-decoration: underline;
+}
+
+

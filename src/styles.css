@@ -1,1 +1,61 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {
+    background-image: url('https://files.catbox.moe/5jt908.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+}
+
+.container {
+    width: 100%;
+}
+
+
+.video-list{
+    grid-area: item_video_list; 
+    background:rgba(50,50,50,0.5);
+    padding: 10px;
+}
+
+.video-list-item {
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.video-list-item:hover {
+    text-decoration: underline;
+}
+
+.youtube-wrapper {
+    grid-area: item_youtube_wrapper;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    box-shadow: 2px 2px 2px 1px rgba(72, 63, 63, 0.5);
+    background:rgba(50,50,50,0.5);
+  }
+  
+.youtube-wrapper .video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.video-player {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-areas:
+      'item_video_list item_youtube_wrapper'
+      'item_video_list item_youtube_wrapper';
+    grid-gap: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 0px;
+    padding-right: 0px;
+    /* height: 100vh; */
+  }
+  
