@@ -5,6 +5,11 @@ import { ActiveNeetsComponent } from './modules/active-neets/active-neets.compon
 import { AbsoruteZeroComponent } from './modules/absorute-zero/absorute-zero.component';
 import { AkatsukiRecordsComponent } from './modules/akatsuki-records/akatsuki-records.component';
 import { DemetoriComponent } from './modules/demetori/demetori.component';
+import { JynxComponent } from './modules/jynx/jynx.component';
+import { OlifejapanComponent } from './modules/olifejapan/olifejapan.component';
+import { ShibayanrecordsComponent } from './modules/shibayanrecords/shibayanrecords.component';
+import { SoundholicComponent } from './modules/soundholic/soundholic.component';
+import { TamusicComponent } from './modules/tamusic/tamusic.component';
 
 
 const routes: Routes = [
@@ -13,6 +18,11 @@ const routes: Routes = [
   { path: 'absorute_zero', component: AbsoruteZeroComponent },
   { path: 'akatsuki_records', component: AkatsukiRecordsComponent },
   { path: 'demetori', component: DemetoriComponent },
+  { path: 'jynx', component: JynxComponent },
+  { path: 'olifejapan', component: OlifejapanComponent },
+  { path: 'shibayanrecords', component: ShibayanrecordsComponent },
+  { path: 'soundholic', component: SoundholicComponent },
+  { path: 'tamusic', component: TamusicComponent },
   { path: '', redirectTo: '/home', pathMatch: 'full' }
 
 ];

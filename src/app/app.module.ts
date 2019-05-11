@@ -10,6 +10,10 @@ import { AbsoruteZeroComponent } from './modules/absorute-zero/absorute-zero.com
 import { AkatsukiRecordsComponent } from './modules/akatsuki-records/akatsuki-records.component';
 import { DemetoriComponent } from './modules/demetori/demetori.component';
 import { JynxComponent } from './modules/jynx/jynx.component';
+import { OlifejapanComponent } from './modules/olifejapan/olifejapan.component';
+import { ShibayanrecordsComponent } from './modules/shibayanrecords/shibayanrecords.component';
+import { SoundholicComponent } from './modules/soundholic/soundholic.component';
+import { TamusicComponent } from './modules/tamusic/tamusic.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,7 +23,11 @@ import { JynxComponent } from './modules/jynx/jynx.component';
     AbsoruteZeroComponent,
     AkatsukiRecordsComponent,
     DemetoriComponent,
-    JynxComponent
+    JynxComponent,
+    OlifejapanComponent,
+    ShibayanrecordsComponent,
+    SoundholicComponent,
+    TamusicComponent
   ],
   imports: [
     BrowserModule,
