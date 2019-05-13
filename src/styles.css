@@ -13,6 +13,13 @@ body {
     width: 100%;
 }
 
+.light-link {
+    color: whitesmoke;
+    text-decoration: none;
+}
+.light-link:hover {
+    text-decoration: underline;
+}
 
 .video-list{
     grid-area: item_video_list; 

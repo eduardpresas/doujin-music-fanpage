@@ -10,6 +10,11 @@ import { OlifejapanComponent } from './modules/olifejapan/olifejapan.component';
 import { ShibayanrecordsComponent } from './modules/shibayanrecords/shibayanrecords.component';
 import { SoundholicComponent } from './modules/soundholic/soundholic.component';
 import { TamusicComponent } from './modules/tamusic/tamusic.component';
+import { TuttisoundComponent } from './modules/tuttisound/tuttisound.component';
+import { Ui70Component } from './modules/ui70/ui70.component';
+import { UndeadcorporationComponent } from './modules/undeadcorporation/undeadcorporation.component';
+import { XionComponent } from './modules/xion/xion.component';
+import { RdsoundsComponent } from './modules/rdsounds/rdsounds.component';
 
 
 const routes: Routes = [
@@ -20,9 +25,14 @@ const routes: Routes = [
   { path: 'demetori', component: DemetoriComponent },
   { path: 'jynx', component: JynxComponent },
   { path: 'olifejapan', component: OlifejapanComponent },
+  { path: 'rdsounds', component: RdsoundsComponent },
   { path: 'shibayanrecords', component: ShibayanrecordsComponent },
   { path: 'soundholic', component: SoundholicComponent },
   { path: 'tamusic', component: TamusicComponent },
+  { path: 'tuttisound', component: TuttisoundComponent },
+  { path: 'ui70', component: Ui70Component },
+  { path: 'undeadcorporation', component: UndeadcorporationComponent },
+  { path: 'xion', component: XionComponent },
   { path: '', redirectTo: '/home', pathMatch: 'full' }
 
 ];

@@ -14,6 +14,11 @@ import { OlifejapanComponent } from './modules/olifejapan/olifejapan.component';
 import { ShibayanrecordsComponent } from './modules/shibayanrecords/shibayanrecords.component';
 import { SoundholicComponent } from './modules/soundholic/soundholic.component';
 import { TamusicComponent } from './modules/tamusic/tamusic.component';
+import { TuttisoundComponent } from './modules/tuttisound/tuttisound.component';
+import { Ui70Component } from './modules/ui70/ui70.component';
+import { UndeadcorporationComponent } from './modules/undeadcorporation/undeadcorporation.component';
+import { XionComponent } from './modules/xion/xion.component';
+import { RdsoundsComponent } from './modules/rdsounds/rdsounds.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,7 +32,12 @@ import { TamusicComponent } from './modules/tamusic/tamusic.component';
     OlifejapanComponent,
     ShibayanrecordsComponent,
     SoundholicComponent,
-    TamusicComponent
+    TamusicComponent,
+    TuttisoundComponent,
+    Ui70Component,
+    UndeadcorporationComponent,
+    XionComponent,
+    RdsoundsComponent
   ],
   imports: [
     BrowserModule,
