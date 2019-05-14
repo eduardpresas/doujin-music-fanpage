@@ -1,0 +1,35 @@
+<div class="container">
+
+  <h1>
+    {{ artistName }}
+  </h1>
+
+  <p>
+    {{ artistDescription }}
+  </p>
+  <i>
+        -{{ artistDescriptionSource }}
+  </i>
+
+  <ul>
+    <li *ngFor="let x of artistSites"><a href="{{x.site}}" class="light-link">{{x.site}}</a></li>
+  </ul>
+
+  <div class="video-player">
+    <div class="video-list">
+      <div *ngFor="let x of artistWorks">
+        {{x.no}}. <a (click)="onClickMe(x.vidid)" class="video-list-item"> {{x.title}}</a>
+      </div>
+
+    </div>
+
+
+    <div class="youtube-wrapper">
+      <iframe *ngIf="youtubeid" [src]='getUrl(youtubeid)' frameborder="0" class="video" allowfullscreen>
+      </iframe>
+
+      <div *ngIf="!youtubeid" class="video">
+        ← Select a video! </div>
+    </div>
+  </div>
+</div>

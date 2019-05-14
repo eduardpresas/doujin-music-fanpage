@@ -19,6 +19,7 @@ import { Ui70Component } from './modules/ui70/ui70.component';
 import { UndeadcorporationComponent } from './modules/undeadcorporation/undeadcorporation.component';
 import { XionComponent } from './modules/xion/xion.component';
 import { RdsoundsComponent } from './modules/rdsounds/rdsounds.component';
+import { ArtistTemplateComponent } from './modules/artist-template/artist-template.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -37,7 +38,8 @@ import { RdsoundsComponent } from './modules/rdsounds/rdsounds.component';
     Ui70Component,
     UndeadcorporationComponent,
     XionComponent,
-    RdsoundsComponent
+    RdsoundsComponent,
+    ArtistTemplateComponent
   ],
   imports: [
     BrowserModule,
