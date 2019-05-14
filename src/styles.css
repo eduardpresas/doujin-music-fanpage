@@ -65,4 +65,23 @@ body {
     padding-right: 0px;
     /* height: 100vh; */
   }
+
+  @media(max-width:1280px) {
+    .video-player {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+          'item_video_list'
+          'item_youtube_wrapper';
+      }
+}
+
+@media(max-width:1080px) {
+    .video-player {
+        grid-template-columns: 1fr;
+      }
+}
+
+
+
   
