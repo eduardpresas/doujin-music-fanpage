@@ -32,6 +32,9 @@
       'item_nav'
       'item_outlet';
   }
+  .nav { 
+    display: flex;
+  }
 }
 
 
